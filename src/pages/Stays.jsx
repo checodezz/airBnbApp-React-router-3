@@ -1,5 +1,5 @@
 import Header from "../components/Header"
-
+import Footer from "../components/Footer"
 
 export default function Stays() {
   return (
@@ -132,6 +132,7 @@ export default function Stays() {
         </div>
       </div>
     </main>
+      <Footer/>
       </>
   );
 }
