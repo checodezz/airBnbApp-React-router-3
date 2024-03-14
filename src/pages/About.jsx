@@ -1,5 +1,10 @@
+import Header from "../components/Header"
+
 export default function About() {
   return (
+
+    <>
+      <Header/>
     <main className="container">
       <h1 className="my-3 display-2">About Airbnb</h1>
       <article>
@@ -40,5 +45,6 @@ export default function About() {
         Welcome to Airbnb. Welcome home.
       </article>
     </main>
+      </>
   );
 }

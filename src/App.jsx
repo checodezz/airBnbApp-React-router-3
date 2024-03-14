@@ -1,7 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header"
 export default function App() {
   return (
+    <>
+    <Header/>
     <main className="container">
       <h1 className="display-2">Latest Listings</h1>
       <section>
@@ -40,5 +43,7 @@ export default function App() {
         <p>$300 per night </p>
       </section>
     </main>
+</>
+
   );
 }

@@ -1,5 +1,10 @@
+import Header from "../components/Header"
+
+
 export default function Stays() {
   return (
+    <>
+    <Header/>
     <main className="container">
       <h1 className="display-2 my-3">Featured Stays</h1>
 
@@ -127,5 +132,6 @@ export default function Stays() {
         </div>
       </div>
     </main>
+      </>
   );
 }
