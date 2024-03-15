@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import About from "./pages/About";
 import Stays from "./pages/Stays";
+import StayDetails from "./pages/StayDetails";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/stays",
     element: <Stays />,
+  },
+  {
+    path: "/stays/:staysId",
+    element: <StayDetails />,
   },
 ]);
 
